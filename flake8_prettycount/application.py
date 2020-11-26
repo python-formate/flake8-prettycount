@@ -67,17 +67,16 @@ class Application(flake8.main.application.Application):
 		"""
 
 		if self.options.count:
-			if True:
-				files_checked = self.file_checker_manager.statistics["files"]
-				files_with_errors = self.file_checker_manager.statistics["files_with_errors"]
-				if self.result_count:
-					click.echo(
-							f"Found {self.result_count} {_error(self.result_count)} "
-							f"in {files_with_errors} {_file(files_with_errors)} "
-							f"(checked {files_checked} source {_file(files_checked)})"
-							)
-				else:
-					click.echo(f"Success: no issues found in {files_checked} source {_file(files_checked)}")
+			files_checked = self.file_checker_manager.statistics["files"]
+			files_with_errors = self.file_checker_manager.statistics["files_with_errors"]
+			if self.result_count:
+				click.echo(
+						f"Found {self.result_count} {_error(self.result_count)} "
+						f"in {files_with_errors} {_file(files_with_errors)} "
+						f"(checked {files_checked} source {_file(files_checked)})"
+						)
+			else:
+				click.echo(f"Success: no issues found in {files_checked} source {_file(files_checked)}")
 
 		if self.options.exit_zero:
 			raise SystemExit(self.catastrophic_failure)
