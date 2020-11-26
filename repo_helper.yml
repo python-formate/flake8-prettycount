@@ -12,3 +12,19 @@ short_desc: 'Wrapper around flake8 providing a formatted count at the end.'
 enable_conda: false
 enable_tests: False
 enable_docs: false
+
+classifiers:
+ - 'Environment :: Console'
+ - 'Framework :: Flake8'
+ - 'Intended Audience :: Developers'
+ - 'Topic :: Software Development :: Libraries :: Python Modules'
+
+keywords:
+ - flake8
+
+python_versions:
+ - 3.6
+ - 3.7
+ - 3.8
+ - 3.9
+ - 3.10-dev
