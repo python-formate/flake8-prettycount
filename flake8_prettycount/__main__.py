@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 #
 #  __main__.py
+"""
+CLI entry point.
+"""
 #
 #  Copyright (c) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
