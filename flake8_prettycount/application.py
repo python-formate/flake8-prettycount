@@ -45,12 +45,13 @@ from typing import Tuple
 # 3rd party
 import click
 import flake8.main.application  # type: ignore
+from domdf_python_tools.words import Plural
 from typing_extensions import NoReturn
 
 __all__ = ["Application"]
 
-_error = partial(ngettext, "error", "errors")
-_file = partial(ngettext, "file", "files")
+_error = Plural("error", "errors")
+_file = Plural("file", "files")
 
 
 class Application(flake8.main.application.Application):
