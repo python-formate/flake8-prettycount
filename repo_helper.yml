@@ -17,7 +17,6 @@ classifiers:
  - 'Environment :: Console'
  - 'Framework :: Flake8'
  - 'Intended Audience :: Developers'
- - 'Topic :: Software Development :: Libraries :: Python Modules'
 
 keywords:
  - flake8

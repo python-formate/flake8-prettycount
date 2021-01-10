@@ -38,8 +38,6 @@ Inspired by mypy's output.
 #
 
 # stdlib
-from functools import partial
-from gettext import ngettext
 from typing import Tuple
 
 # 3rd party
