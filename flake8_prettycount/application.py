@@ -57,7 +57,7 @@ class Application(flake8.main.application.Application):
 	Wrapper around flake8 providing a formatted count at the end.
 	"""
 
-	def exit(self) -> NoReturn:  # noqa: A003
+	def exit(self) -> NoReturn:  # noqa: A003  # pylint: disable=redefined-builtin
 		"""
 		Handle finalization and exiting the program.
 
