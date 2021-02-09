@@ -10,7 +10,7 @@ license: 'MIT'
 short_desc: 'Wrapper around flake8 providing a formatted count at the end.'
 
 enable_conda: false
-enable_tests: False
+enable_tests: false
 enable_docs: false
 
 classifiers:
@@ -22,11 +22,13 @@ keywords:
  - flake8
 
 python_versions:
- - 3.6
- - 3.7
- - 3.8
- - 3.9
+ - '3.6'
+ - '3.7'
+ - '3.8'
+ - '3.9'
  - 3.10-dev
+ - pypy3
+ - rustpython
 
 console_scripts:
  - flake8-prettycount = flake8_prettycount.__main__:main
