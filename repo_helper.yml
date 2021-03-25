@@ -9,6 +9,7 @@ version: '0.1.1'
 license: 'MIT'
 short_desc: 'Wrapper around flake8 providing a formatted count at the end.'
 
+use_whey: true
 enable_conda: false
 enable_tests: false
 enable_docs: false
