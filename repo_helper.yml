@@ -28,7 +28,8 @@ python_versions:
  - '3.8'
  - '3.9'
  - 3.10-dev
- - pypy3
+ - pypy36
+ - pypy37
 
 console_scripts:
  - flake8-prettycount = flake8_prettycount.__main__:main
