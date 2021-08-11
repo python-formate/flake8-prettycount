@@ -11,17 +11,17 @@ keywords = [ "flake8",]
 dynamic = [ "requires-python", "classifiers", "dependencies",]
 
 [[project.authors]]
-email = "dominic@davis-foster.co.uk"
 name = "Dominic Davis-Foster"
+email = "dominic@davis-foster.co.uk"
 
 
 [project.license]
 file = "LICENSE"
 
 [project.urls]
-Homepage = "https://github.com/domdfcoding/flake8-prettycount"
-"Issue Tracker" = "https://github.com/domdfcoding/flake8-prettycount/issues"
-"Source Code" = "https://github.com/domdfcoding/flake8-prettycount"
+Homepage = "https://github.com/python-formate/flake8-prettycount"
+"Issue Tracker" = "https://github.com/python-formate/flake8-prettycount/issues"
+"Source Code" = "https://github.com/python-formate/flake8-prettycount"
 
 [project.scripts]
 flake8-prettycount = "flake8_prettycount.__main__:main"
@@ -43,6 +43,9 @@ platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 package = "flake8_prettycount"
 
-[tool.mkrecipe]
-conda-channels = [ "domdfcoding",]
-extras = "all"
+[tool.mypy]
+python_version = "3.6"
+namespace_packages = true
+check_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
