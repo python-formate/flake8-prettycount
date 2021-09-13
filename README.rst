@@ -46,8 +46,8 @@ flake8-prettycount
 	:target: https://github.com/python-formate/flake8-prettycount/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://requires.io/github/python-formate/flake8-prettycount/requirements.svg?branch=master
-	:target: https://requires.io/github/python-formate/flake8-prettycount/requirements/?branch=master
+.. |requires| image:: https://dependency-dash.herokuapp.com/github/python-formate/flake8-prettycount/badge.svg
+	:target: https://dependency-dash.herokuapp.com/github/python-formate/flake8-prettycount/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/python-formate/flake8-prettycount?logo=codefactor
