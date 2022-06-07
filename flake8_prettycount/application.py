@@ -46,10 +46,7 @@ import flake8.main.application  # type: ignore
 from domdf_python_tools.words import Plural
 from typing_extensions import NoReturn
 
-__all__ = ["Application"]
-
-_error = Plural("error", "errors")
-_file = Plural("file", "files")
+__all__ = ("Application", )
 
 
 class Application(flake8.main.application.Application):
@@ -64,6 +61,9 @@ class Application(flake8.main.application.Application):
 		This should be the last thing called on the application instance.
 		It will check certain options and exit appropriately.
 		"""
+
+		_error = Plural("error", "errors")
+		_file = Plural("file", "files")
 
 		if self.options.count:
 			files_checked = self.file_checker_manager.statistics["files"]

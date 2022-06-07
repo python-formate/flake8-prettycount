@@ -36,12 +36,12 @@ from consolekit import CONTEXT_SETTINGS
 # this package
 from flake8_prettycount.application import Application
 
-__all__ = ["main"]
+__all__ = ("main", )
 
 
 @click.command(context_settings={"ignore_unknown_options": True, "allow_extra_args": True, **CONTEXT_SETTINGS})
 @click.pass_context
-def main(ctx: click.Context):
+def main(ctx: click.Context) -> None:
 	"""
 	Wrapper around flake8 providing a formatted count at the end.
 
