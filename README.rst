@@ -77,7 +77,7 @@ flake8-prettycount
 .. |language| image:: https://img.shields.io/github/languages/top/python-formate/flake8-prettycount
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/python-formate/flake8-prettycount/v0.1.1
+.. |commits-since| image:: https://img.shields.io/github/commits-since/python-formate/flake8-prettycount/v0.1.2
 	:target: https://github.com/python-formate/flake8-prettycount/pulse
 	:alt: GitHub commits since tagged version
 

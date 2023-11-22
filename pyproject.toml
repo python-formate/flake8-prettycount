@@ -4,7 +4,7 @@ build-backend = "whey"
 
 [project]
 name = "flake8-prettycount"
-version = "0.1.1"
+version = "0.1.2"
 description = "Wrapper around flake8 providing a formatted count at the end."
 readme = "README.rst"
 keywords = [ "flake8",]
